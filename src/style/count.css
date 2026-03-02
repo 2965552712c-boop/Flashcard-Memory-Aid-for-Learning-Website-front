@@ -1,0 +1,56 @@
+
+
+.mb {
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 5px;
+    height: 280px;
+    max-width: 380px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.count-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 5px;
+    background-color: #efefef;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.count-item-n {
+    height: 40px;
+    width: 60px;
+    background-color: white;
+}
+
+.sc {
+    line-height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 5px;
+    
+}
+
+#table {
+    height: 350px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+}
+
+#myChart {
+    height: 300px;
+    width: 100%;
+}

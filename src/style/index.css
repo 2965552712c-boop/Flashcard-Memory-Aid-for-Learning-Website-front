@@ -1,0 +1,56 @@
+.index {
+    height: calc(100vh);
+}
+
+html,
+body,
+#mm,
+.el-container .el-main .el-aside {
+    /*统一设置高度为100%*/
+    height: 100%;
+    width: 100%;
+    background-color: #f5f7fb;
+}
+
+.el-container {
+    height: 100%;
+}
+
+.radius5 {
+    border: 0;
+    border-radius: 5px;
+}
+
+.radius10 {
+    border: 0;
+    border-width: 0;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.10) 0px 3px 6px;
+}
+
+.divider {
+    border: 1;
+    /* height: 1px; */
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #b3b3b3;
+}
+
+.center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.item-noselected {
+    border: solid 1px #eee;
+}
+
+.item-selected {
+    border: solid 2px #7477ff;
+}
